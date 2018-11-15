@@ -19,7 +19,9 @@ print "main"
 # 3) TOUS les médias son…
 # """
 
-text = u"RT @Drica_Patriota: Incrível, #Bolsonaro nem assumiu a presidência ainda e a economia já está dando sinal de melhoria. Grupo Kyly anuncia i…"
+text = u"O smartphone é bom, porém não gosto de smartphone grandes"
+
+# text = u"Gostei bastante desse smartphone, mesmo sendo caro"
 
 sentiment(text)
 
