@@ -9,6 +9,14 @@ def reduce_by_key(func, iterable):
     )
 
 
+def flat_map_double_array(iterable):
+    flattened = []
+    for x, y in iterable:
+        for i in range(0, len(x)):
+            flattened.append((x[i], y[i]))
+    return flattened
+
+
 def flat_map_values(iterable):
     flattened = []
     for x in iterable:

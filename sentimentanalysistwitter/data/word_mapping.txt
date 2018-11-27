@@ -588,6 +588,9 @@ enganando -3
 engano -3
 decisivo 1
 dedicado 2
+derrota -2
+vitoria 2
+vitória 2
 derrotado -2
 deficiências -2
 defeito -3
@@ -1180,6 +1183,7 @@ havoc -2
 saudável 2
 desolador -3
 de coração partido -3
+coração 2
 sincero 3
 céu 2
 celestial 4
@@ -1449,7 +1453,6 @@ libeloso -2
 mentiu -2
 salva-vidas 4
 alegre 1
-como 2
 gostou 2
 gosta de 2
 limitação -1
@@ -1755,6 +1758,7 @@ adiado -1
 adia -1
 adiando -1
 pobreza -1
+pobre -1
 poderoso 2
 sem força -2
 louvor 3
@@ -2482,6 +2486,7 @@ wowww 4
 ódio -3
 naufrágio -2
 errado -2
+errada -2
 injustiçado -2
 wtf -4
 sim 1
