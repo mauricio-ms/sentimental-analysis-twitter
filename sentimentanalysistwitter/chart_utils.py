@@ -5,16 +5,19 @@ from array_utils import *
 
 
 def plot(config, title):
+    plt.clf()
     labels = map(get_key, config)
     values = map(get_value, config)
     x = np.arange(len(values))
     plt.title(title)
     plt.bar(x, values)
     plt.xticks(x, labels)
-    plt.show()
+    return plt
 
 
-def word_clue(text):
+def word_clue(text, title):
+    plt.clf()
+    plt.title(title)
     plt.imshow(WordCloud().generate(text), interpolation="bilinear")
     plt.axis("off")
-    plt.show()
+    return plt
