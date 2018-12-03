@@ -2,11 +2,48 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e0fae13-74e3-4409-ab4c-248502fd1ee2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/sentimentanalysistwitter/DataHolder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentimentanalysistwitter/PlotGenerator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/data/SentiLex-flex-PT01.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/data/SentiLex-lem-PT01.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/data/all_candidate_mapping.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/data/second_round_candidate_mapping.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentimentanalysistwitter/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentimentanalysistwitter/classes/DataHolder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentimentanalysistwitter/classes/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentimentanalysistwitter/scripts/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentimentanalysistwitter/scripts/file_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentimentanalysistwitter/scripts/sentiment_analysis.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentimentanalysistwitter/chart_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/sentimentanalysistwitter/chart_utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentimentanalysistwitter/sentiment_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/sentimentanalysistwitter/sentiment_analysis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/plots/todos-tweets-para-todos-candidatos/melhor-valor-mais-frequente-por-candidato.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/plots/todos-tweets-para-todos-candidatos/melhor-valor-mais-frequente-por-candidato.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/plots/todos-tweets-para-todos-candidatos/melhor-valor-medio-por-candidato.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/plots/todos-tweets-para-todos-candidatos/melhor-valor-medio-por-candidato.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/plots/todos-tweets-para-todos-candidatos/pior-valor-mais-frequente-por-candidato.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/plots/todos-tweets-para-todos-candidatos/pior-valor-mais-frequente-por-candidato.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/plots/todos-tweets-para-todos-candidatos/pior-valor-medio-por-candidato.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/plots/todos-tweets-para-todos-candidatos/pior-valor-medio-por-candidato.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/plots/todos-tweets-para-todos-candidatos/quantidade-de-tweets-por-candidato.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/plots/todos-tweets-para-todos-candidatos/quantidade-de-tweets-por-candidato.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/plots/todos-tweets-para-todos-candidatos/sentimento-por-candidato-media.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/plots/todos-tweets-para-todos-candidatos/sentimento-por-candidato-media.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/plots/todos-tweets-para-todos-candidatos/sentimento-por-candidato-mediana.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/plots/todos-tweets-para-todos-candidatos/sentimento-por-candidato-mediana.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/plots/todos-tweets-para-todos-candidatos/sentimento-por-candidato.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/plots/todos-tweets-para-todos-candidatos/sentimento-por-candidato.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/plots/todos-tweets-para-todos-candidatos/word-clue-melhores-palavras.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/plots/todos-tweets-para-todos-candidatos/word-clue-piores-palavras.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sentimentanalysistwitter/DataHolder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sentimentanalysistwitter/PlotGenerator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sentimentanalysistwitter/PlotGenerator.py" beforeDir="false" afterPath="$PROJECT_DIR$/sentimentanalysistwitter/classes/PlotGenerator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sentimentanalysistwitter/array_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sentimentanalysistwitter/array_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/sentimentanalysistwitter/scripts/array_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sentimentanalysistwitter/chart_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sentimentanalysistwitter/chart_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/sentimentanalysistwitter/scripts/chart_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sentimentanalysistwitter/data/candidate_mapping.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sentimentanalysistwitter/data/word_mapping.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sentimentanalysistwitter/data/word_mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/data/word_mapping.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sentimentanalysistwitter/db_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sentimentanalysistwitter/db_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/sentimentanalysistwitter/scripts/db_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sentimentanalysistwitter/file_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sentimentanalysistwitter/lambda_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sentimentanalysistwitter/lambda_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/sentimentanalysistwitter/scripts/lambda_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sentimentanalysistwitter/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/sentimentanalysistwitter/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sentimentanalysistwitter/sentiment_analysis.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sentimentanalysistwitter/sentiment_analysis_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sentimentanalysistwitter/sentiment_analysis_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/sentimentanalysistwitter/scripts/sentiment_analysis_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sentimentanalysistwitter/word_clue.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sentimentanalysistwitter/word_clue.py" beforeDir="false" afterPath="$PROJECT_DIR$/sentimentanalysistwitter/scripts/word_clue.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,9 +55,9 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/sentimental_analysis_twitter$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1541459242719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sentimentalanalysistwitter" />
     <SUITE FILE_PATH="coverage/sentimental_analysis_twitter$db_utils.coverage" NAME="db_utils Coverage Results" MODIFIED="1541886562737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sentimentanalysistwitter" />
-    <SUITE FILE_PATH="coverage/sentimental_analysis_twitter$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1542073110820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sentimentanalysistwitter" />
+    <SUITE FILE_PATH="coverage/sentimental_analysis_twitter$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1543539102795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sentimentanalysistwitter" />
     <SUITE FILE_PATH="coverage/sentimental_analysis_twitter$chart_utils.coverage" NAME="chart_utils Coverage Results" MODIFIED="1541716922482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sentimentanalysistwitter" />
-    <SUITE FILE_PATH="coverage/sentimental_analysis_twitter$sentiment_analysis.coverage" NAME="sentiment_analysis Coverage Results" MODIFIED="1543283272087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sentimentanalysistwitter" />
+    <SUITE FILE_PATH="coverage/sentimental_analysis_twitter$sentiment_analysis.coverage" NAME="sentiment_analysis Coverage Results" MODIFIED="1543718819809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sentimentanalysistwitter" />
     <SUITE FILE_PATH="coverage/sentimental_analysis_twitter$main.coverage" NAME="main Coverage Results" MODIFIED="1541892428529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sentimentanalysistwitter" />
   </component>
   <component name="DatabaseView">
@@ -61,20 +98,22 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gitignore" value="1" />
-          <entry key="md" value="1" />
+          <entry key="html" value="1" />
+          <entry key="md" value="2" />
           <entry key="png" value="1" />
-          <entry key="py" value="47" />
+          <entry key="py" value="66" />
           <entry key="tweetsDb/tweetsDb/oldCandidateTweets" value="5" />
-          <entry key="txt" value="10" />
+          <entry key="txt" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="HTML" value="1" />
           <entry key="Image" value="1" />
           <entry key="MONGO" value="5" />
-          <entry key="Markdown" value="1" />
-          <entry key="PLAIN_TEXT" value="11" />
-          <entry key="Python" value="47" />
+          <entry key="Markdown" value="2" />
+          <entry key="PLAIN_TEXT" value="20" />
+          <entry key="Python" value="66" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -82,136 +121,127 @@
           <entry key="dummy" value="52" />
           <entry key="gitignore" value="4" />
           <entry key="md" value="155" />
-          <entry key="py" value="12059" />
-          <entry key="txt" value="301" />
+          <entry key="py" value="15927" />
+          <entry key="sentiment_analysis" value="1" />
+          <entry key="txt" value="321" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="155" />
-          <entry key="PLAIN_TEXT" value="357" />
-          <entry key="Python" value="12059" />
+          <entry key="PLAIN_TEXT" value="377" />
+          <entry key="Python" value="15928" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sentimentanalysistwitter/sentiment_analysis.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sentimentanalysistwitter/scripts/sentiment_analysis.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="34" column="49" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="49" />
+            <state relative-caret-position="321">
+              <caret line="46" selection-start-line="46" selection-end-line="46" />
               <folding>
                 <element signature="e#15#46#0" expanded="true" />
-                <marker date="1543360589985" expanded="true" signature="371:376" ph="..." />
-                <marker date="1543360589985" expanded="true" signature="371:511" ph="..." />
+                <marker date="1543867763203" expanded="true" signature="479:484" ph="..." />
+                <marker date="1543867763203" expanded="true" signature="479:619" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_PLUGINS_DIR$/python/helpers/pydev/_pydev_bundle/pydev_umd.py">
+        <entry file="file://$PROJECT_DIR$/resources/data/all_candidate_mapping.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
-              <caret line="196" selection-start-line="196" selection-end-line="196" />
+            <state relative-caret-position="17">
+              <caret line="1" column="126" selection-start-line="1" selection-start-column="126" selection-end-line="1" selection-end-column="126" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sentimentanalysistwitter/chart_utils.py">
+        <entry file="file://C:/Python27/Lib/site-packages/wordcloud/wordcloud.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+            <state relative-caret-position="153">
+              <caret line="604" selection-start-line="604" selection-end-line="604" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sentimentanalysistwitter/classes/DataHolder.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="38" selection-start-column="38" selection-end-column="38" />
+              <folding>
+                <marker date="1543867763284" expanded="true" signature="91:92" ph="..." />
+                <marker date="1543867763284" expanded="true" signature="91:97" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sentimentanalysistwitter/__init__.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sentimentanalysistwitter/scripts/file_utils.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="373">
+              <caret line="33" column="51" selection-start-line="33" selection-start-column="51" selection-end-line="33" selection-end-column="51" />
+              <folding>
+                <marker date="1543867763249" expanded="true" signature="1050:1051" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sentimentanalysistwitter/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sentimentanalysistwitter/classes/PlotGenerator.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-column="14" />
+              <folding>
+                <marker date="1543867763154" expanded="true" signature="97:102" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sentimentanalysistwitter/scripts/chart_utils.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
-                <marker date="1543359980294" expanded="true" signature="205:210" ph="..." />
+                <marker date="1543721949778" expanded="true" signature="215:220" ph="..." />
+                <marker date="1543721949778" expanded="true" signature="547:808" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sentimentanalysistwitter/PlotGenerator.py">
+        <entry file="file://$PROJECT_DIR$/resources/data/SentiLex-flex-PT01.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="799">
-              <caret line="47" column="63" selection-start-line="47" selection-start-column="63" selection-end-line="47" selection-end-column="63" />
-              <folding>
-                <marker date="1543360589969" expanded="true" signature="64:69" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sentimentanalysistwitter/DataHolder.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
-              <folding>
-                <marker date="1543359980273" expanded="true" signature="58:59" ph="..." />
-                <marker date="1543359980273" expanded="true" signature="58:64" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sentimentanalysistwitter/data/word_mapping.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1496">
-              <caret line="88" selection-start-line="88" selection-end-line="88" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sentimentanalysistwitter/sentiment_analysis_utils.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="37" selection-start-line="37" selection-end-line="37" />
-              <folding>
-                <element signature="e#15#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sentimentanalysistwitter/array_utils.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
-              <folding>
-                <element signature="e#0#29#0" expanded="true" />
-                <marker date="1542331804705" expanded="true" signature="56:59" ph="..." />
-                <marker date="1542331804705" expanded="true" signature="834:839" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sentimentanalysistwitter/file_utils.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sentimentanalysistwitter/lambda_utils.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="64" selection-start-line="25" selection-start-column="64" selection-end-line="25" selection-end-column="64" />
-              <folding>
-                <marker date="1543272080560" expanded="true" signature="50:55" ph="..." />
-                <marker date="1543272080560" expanded="true" signature="197:202" ph="..." />
-                <marker date="1543272080560" expanded="true" signature="272:338" ph="..." />
-              </folding>
+            <state relative-caret-position="163">
+              <caret line="11165" column="41" selection-start-line="11165" selection-start-column="41" selection-end-line="11165" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -227,29 +257,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>a</find>
-      <find>-5</find>
-      <find>salva-vidas</find>
-      <find>u'2'</find>
-      <find>u'2':</find>
-      <find>desaparece</find>
-      <find>condena</find>
-      <find>vencer</find>
-      <find>Moro atropela</find>
-      <find>...</find>
-      <find>Desabafa</find>
-      <find>querendo</find>
-      <find>INCRIVEL</find>
-      <find>sentiments</find>
-      <find>suspende</find>
-      <find>aprova</find>
-      <find>haddad</find>
-      <find>LULA</find>
-      <find>group</find>
-      <find>bolsonaro</find>
-      <find>pobre</find>
-      <find>coração</find>
-      <find>derrota</find>
       <find>errad</find>
       <find>vitori</find>
       <find>freq</find>
@@ -257,6 +264,29 @@
       <find>pattern_split</find>
       <find>red</find>
       <find>group_by_candidates</find>
+      <find>genero</find>
+      <find>pol=0</find>
+      <find>POL=</find>
+      <find>POL=0</find>
+      <find>contra</find>
+      <find>favor</find>
+      <find>direitos</find>
+      <find>igual</find>
+      <find>todas</find>
+      <find>as</find>
+      <find>as,</find>
+      <find>^são</find>
+      <find>^contra</find>
+      <find>filho</find>
+      <find>puta</find>
+      <find>terra</find>
+      <find>^vão</find>
+      <find>todas as minhas</find>
+      <find>tweets</find>
+      <find>self.data_holder.candidates</find>
+      <find>fake</find>
+      <find>candidates_second_round</find>
+      <find>data/</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -272,20 +302,24 @@
         <option value="$PROJECT_DIR$/sentimentalanalysistwitter/array_utils.py" />
         <option value="$PROJECT_DIR$/sentimentanalysistwitter/word_clue.py" />
         <option value="$PROJECT_DIR$/readme.md" />
-        <option value="$PROJECT_DIR$/sentimentanalysistwitter/file_utils.py" />
         <option value="$PROJECT_DIR$/sentimentanalysistwitter/db_utils.py" />
         <option value="$PROJECT_DIR$/sentimentanalysistwitter/data/candidate_mapping.txt" />
-        <option value="$PROJECT_DIR$/sentimentanalysistwitter/main.py" />
         <option value="$PROJECT_DIR$/sentimentanalysistwitter/array_utils.py" />
         <option value="$PROJECT_DIR$/sentimentanalysistwitter/data/word_mapping.txt" />
-        <option value="$PROJECT_DIR$/sentimentanalysistwitter/sentiment_analysis_utils.py" />
-        <option value="$PROJECT_DIR$/sentimentanalysistwitter/lambda_utils.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/sentimentanalysistwitter/Plotter.py" />
-        <option value="$PROJECT_DIR$/sentimentanalysistwitter/chart_utils.py" />
-        <option value="$PROJECT_DIR$/sentimentanalysistwitter/DataHolder.py" />
+        <option value="$PROJECT_DIR$/sentimentanalysistwitter/main.py" />
+        <option value="$PROJECT_DIR$/sentimentanalysistwitter/file_utils.py" />
+        <option value="$PROJECT_DIR$/sentimentanalysistwitter/lambda_utils.py" />
+        <option value="$PROJECT_DIR$/sentimentanalysistwitter/sentiment_analysis_utils.py" />
+        <option value="$PROJECT_DIR$/sentimentanalysistwitter/data/second_round_candidate_mapping.txt" />
         <option value="$PROJECT_DIR$/sentimentanalysistwitter/PlotGenerator.py" />
+        <option value="$PROJECT_DIR$/sentimentanalysistwitter/chart_utils.py" />
+        <option value="$PROJECT_DIR$/sentimentanalysistwitter/data/SentiLex-flex-PT01.txt" />
+        <option value="$PROJECT_DIR$/sentimentanalysistwitter/data/all_candidate_mapping.txt" />
         <option value="$PROJECT_DIR$/sentimentanalysistwitter/sentiment_analysis.py" />
+        <option value="$PROJECT_DIR$/sentimentanalysistwitter/DataHolder.py" />
+        <option value="$PROJECT_DIR$/sentimentanalysistwitter/scripts/file_utils.py" />
       </list>
     </option>
   </component>
@@ -304,8 +338,8 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1616" />
-    <option name="height" value="916" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -324,18 +358,13 @@
             <path>
               <item name="sentimental-analysis-twitter" type="b2602c69:ProjectViewProjectNode" />
               <item name="sentimental-analysis-twitter" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sentimental-analysis-twitter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sentimental-analysis-twitter" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="plots" type="462c0819:PsiDirectoryNode" />
+              <item name="sentimentanalysistwitter" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sentimental-analysis-twitter" type="b2602c69:ProjectViewProjectNode" />
               <item name="sentimental-analysis-twitter" type="462c0819:PsiDirectoryNode" />
               <item name="sentimentanalysistwitter" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -348,13 +377,26 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543360727200" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543867937992" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.mongoOptions" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings>
+        <option name="useSoftWraps" value="true" />
+      </console-settings>
+    </option>
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Desenvolvimento\sentimental-analysis-twitter\sentimentanalysistwitter\classes" />
+      <recent name="C:\Desenvolvimento\sentimental-analysis-twitter\sentimentanalysistwitter\scripts" />
+      <recent name="C:\Desenvolvimento\sentimental-analysis-twitter\resources" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Desenvolvimento\sentimental-analysis-twitter\sentimentanalysistwitter\data" />
       <recent name="C:\Desenvolvimento\sentimental-analysis-twitter\sentimentanalysistwitter" />
       <recent name="C:\Desenvolvimento\sentimental-analysis-twitter\sentimentalanalysistwitter" />
     </key>
@@ -371,7 +413,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.sentiment_analysis">
+  <component name="RunManager" selected="Python.sentiment_analysis (1)">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="sentiment-analysis-twitter" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -407,7 +449,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sentimentanalysistwitter/db_utils.py" />
+      <option name="SCRIPT_NAME" value="C:\Desenvolvimento\sentimental-analysis-twitter\sentimentanalysistwitter\scripts\db_utils.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -438,20 +480,17 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="sentiment_analysis (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="sentiment-analysis-twitter" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sentimentanalysistwitter" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sentimentanalysistwitter/scripts" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Desenvolvimento\sentimental-analysis-twitter\sentimentanalysistwitter\main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sentimentanalysistwitter/scripts/sentiment_analysis.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -464,13 +503,16 @@
       <module name="sentiment-analysis-twitter" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sentimentanalysistwitter" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sentimentanalysistwitter/sentiment_analysis.py" />
+      <option name="SCRIPT_NAME" value="C:\Desenvolvimento\sentimental-analysis-twitter\sentimentanalysistwitter\scripts\sentiment_analysis.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -492,7 +534,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sentimentanalysistwitter/sentiment_analysis_utils.py" />
+      <option name="SCRIPT_NAME" value="C:\Desenvolvimento\sentimental-analysis-twitter\sentimentanalysistwitter\scripts\sentiment_analysis_utils.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -504,17 +546,17 @@
     <list>
       <item itemvalue="Python.sentiment_analysis" />
       <item itemvalue="Python.db_utils" />
-      <item itemvalue="Python.main" />
       <item itemvalue="Python.main (1)" />
       <item itemvalue="Python.sentiment_analysis_utils" />
+      <item itemvalue="Python.sentiment_analysis (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.sentiment_analysis (1)" />
         <item itemvalue="Python.sentiment_analysis" />
+        <item itemvalue="Python.sentiment_analysis_utils" />
         <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.db_utils" />
-        <item itemvalue="Python.sentiment_analysis_utils" />
-        <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
   </component>
@@ -540,17 +582,18 @@
       <workItem from="1542838712225" duration="3799000" />
       <workItem from="1543182337015" duration="119000" />
       <workItem from="1543271176700" duration="1692000" />
-      <workItem from="1543275590069" duration="11443000" />
+      <workItem from="1543275590069" duration="65117000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="133583000" />
+    <option name="totallyTimeSpent" value="187257000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19591528" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20272315" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -559,8 +602,41 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32974428" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4091653" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.47240916" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.0" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.26350245" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32974428" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32974428" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="11" weight="0.32974428" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" x="0" y="0" width="354" height="676" id="Documentation" order="6" sideWeight="0.085872576" side_tool="true" weight="0.25945538" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="SciView" order="8" sideWeight="0.9141274" visible="true" weight="0.037821483" />
+      <window_info anchor="right" id="Database" order="9" sideWeight="0.4964029" weight="0.32969153" />
+      <window_info anchor="right" id="Maven Projects" order="10" weight="0.32969153" />
+      <window_info anchor="right" id="Mongo Explorer" order="11" sideWeight="0.4945946" weight="0.25578406" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.283419" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32974428" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4091521" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.61776584" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -581,7 +657,7 @@
       <window_info anchor="right" id="Database" order="9" sideWeight="0.4964029" weight="0.32969153" />
       <window_info anchor="right" id="Maven Projects" order="10" weight="0.32969153" />
       <window_info anchor="right" id="Mongo Explorer" order="11" sideWeight="0.4945946" weight="0.25578406" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -603,9 +679,39 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/sentimentanalysistwitter/sentiment_analysis.py</url>
+          <url>file://$PROJECT_DIR$/sentimentanalysistwitter/scripts/sentiment_analysis.py</url>
+          <line>58</line>
+          <option name="timeStamp" value="168" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sentimentanalysistwitter/scripts/chart_utils.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="174" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sentimentanalysistwitter/scripts/chart_utils.py</url>
           <line>33</line>
-          <option name="timeStamp" value="155" />
+          <option name="timeStamp" value="175" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sentimentanalysistwitter/main.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="176" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sentimentanalysistwitter/classes/PlotGenerator.py</url>
+          <line>46</line>
+          <option name="timeStamp" value="184" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sentimentanalysistwitter/classes/PlotGenerator.py</url>
+          <line>45</line>
+          <option name="timeStamp" value="191" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sentimentanalysistwitter/scripts/sentiment_analysis.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="192" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -624,6 +730,22 @@
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>reduce_by_key(concat, map(lambda x: (get_key(x), 1),
+                                                            filter(lambda y: get_value(y) &lt; 0, words_tuples)))</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>words_tuples</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>reduce_by_key(concat, map(lambda x: (get_key(x), 1), filter(lambda y: get_value(y) &lt; 0, words_tuples)))</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>map(
         lambda l: (l[0], reduce(func, l[1])),
@@ -673,16 +795,6 @@
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>{
-        &quot;score&quot;: score,
-        &quot;sentiments&quot;: sentiments,
-        &quot;mean&quot;: 0,
-        &quot;median&quot;: 0
-    }</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
     </expressions>
     <expressions id="breakpointCondition">
       <expression>
@@ -713,27 +825,42 @@
     </expressions>
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>map(lambda t: [sentiment(t[1]), join(reduce_by_key(adder, map(lambda x: (x, 1), pattern_split.split(t[1]))), candidates)], tweets)</expression-string>
+        <expression-string>&quot; &quot;.join(map(get_value, tweets))</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>map(lambda x: [x[0], max(x[1], key=get_value)][0], filter(lambda x: is_not_empty(x[1]), sentiment_tuples))</expression-string>
+        <expression-string>&quot;&quot;.join(map(get_value, tweets))</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>map(lambda x: [x[0], max(x[1], key=get_value)], filter(lambda x: is_not_empty(x[1]), sentiment_tuples))</expression-string>
+        <expression-string>&quot; &quot;.join([&quot;a&quot;, &quot;b&quot;, &quot;c&quot;])</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>filter(lambda x: is_not_empty(x[1]), sentiment_tuples)</expression-string>
+        <expression-string>&quot; &quot;.join([&quot;a&quot;, &quot;b&quot;])</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>sentiment_tuples</expression-string>
+        <expression-string>&quot;&quot;.join([&quot;a&quot;, &quot;b&quot;])</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>map(get_value, tweets)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>map(adder, map(get_value, tweets))</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>map(concat, map(get_value, tweets))</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -743,17 +870,7 @@
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>(filter(lambda x: is_not_empty(x[1]), sentiment_tuples))</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>map(lambda x: [x[0], max(x[1][0], key=get_value)], filter(lambda x: is_not_empty(x[1]), sentiment_tuples))</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>map(lambda x: (x[0], max(x[1], key=get_value)), filter(lambda x: is_not_empty(x[1]), sentiment_tuples))</expression-string>
+        <expression-string>np.abs(-1)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -781,16 +898,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="119">
-            <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="83" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python27/site-packages/IPython/core/interactiveshell.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="106">
@@ -812,20 +919,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sentimentanalysistwitter/data/candidate_mapping.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="61" selection-start-column="61" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sentimentanalysistwitter/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Python27/Lib/collections.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="127">
@@ -833,55 +926,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sentimentanalysistwitter/db_utils.py">
+    <entry file="file://$PROJECT_DIR$/sentimentanalysistwitter/scripts/db_utils.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sentimentanalysistwitter/word_clue.py">
+    <entry file="file://$PROJECT_DIR$/sentimentanalysistwitter/scripts/word_clue.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="57" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="57" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sentimentanalysistwitter/data/word_mapping.txt">
+    <entry file="file://$PROJECT_DIR$/resources/data/word_mapping.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1496">
           <caret line="88" selection-start-line="88" selection-end-line="88" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sentimentanalysistwitter/file_utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sentimentanalysistwitter/lambda_utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="64" selection-start-line="25" selection-start-column="64" selection-end-line="25" selection-end-column="64" />
-          <folding>
-            <marker date="1543272080560" expanded="true" signature="50:55" ph="..." />
-            <marker date="1543272080560" expanded="true" signature="197:202" ph="..." />
-            <marker date="1543272080560" expanded="true" signature="272:338" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sentimentanalysistwitter/array_utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-            <marker date="1542331804705" expanded="true" signature="56:59" ph="..." />
-            <marker date="1542331804705" expanded="true" signature="834:839" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -895,27 +957,6 @@
     <entry file="file://$PROJECT_DIR$/resources/plots/temp.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/sentimentanalysistwitter/sentiment_analysis_utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-          <folding>
-            <element signature="e#15#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sentimentanalysistwitter/chart_utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-            <marker date="1543359980294" expanded="true" signature="205:210" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_PLUGINS_DIR$/python/helpers/pydev/_pydev_bundle/pydev_umd.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="111">
@@ -923,35 +964,160 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sentimentanalysistwitter/DataHolder.py">
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="17">
+            <caret line="1" selection-start-line="1" selection-end-line="1" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/plotly/offline/offline.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+        <state relative-caret-position="-577">
+          <caret line="383" column="4" selection-start-line="383" selection-start-column="4" selection-end-line="383" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python27/site-packages/matplotlib/pyplot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="3457" column="4" selection-start-line="3457" selection-start-column="4" selection-end-line="3457" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentimentanalysistwitter/temp-plot.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentimentanalysistwitter/scripts/lambda_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="35" column="27" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
           <folding>
-            <marker date="1543359980273" expanded="true" signature="58:59" ph="..." />
-            <marker date="1543359980273" expanded="true" signature="58:64" ph="..." />
+            <element signature="e#0#18#0" expanded="true" />
+            <marker date="1543676243496" expanded="true" signature="68:73" ph="..." />
+            <marker date="1543676243496" expanded="true" signature="215:220" ph="..." />
+            <marker date="1543676243496" expanded="true" signature="290:340" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sentimentanalysistwitter/PlotGenerator.py">
+    <entry file="file://$PROJECT_DIR$/sentimentanalysistwitter/scripts/array_utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="47" column="63" selection-start-line="47" selection-start-column="63" selection-end-line="47" selection-end-column="63" />
+        <state relative-caret-position="-7">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="25" />
           <folding>
-            <marker date="1543360589969" expanded="true" signature="64:69" ph="..." />
+            <element signature="e#0#29#0" expanded="true" />
+            <marker date="1542331804705" expanded="true" signature="56:59" ph="..." />
+            <marker date="1542331804705" expanded="true" signature="834:839" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sentimentanalysistwitter/sentiment_analysis.py">
+    <entry file="file://$PROJECT_DIR$/sentimentanalysistwitter/scripts/sentiment_analysis_utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="34" column="49" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="49" />
+        <state relative-caret-position="-7">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/data/second_round_candidate_mapping.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="88" selection-start-column="88" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/data/SentiLex-lem-PT01.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentimentanalysistwitter/classes/PlotGenerator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="14" />
+          <folding>
+            <marker date="1543867763154" expanded="true" signature="97:102" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/wordcloud/wordcloud.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="604" selection-start-line="604" selection-end-line="604" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentimentanalysistwitter/scripts/chart_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+            <marker date="1543721949778" expanded="true" signature="215:220" ph="..." />
+            <marker date="1543721949778" expanded="true" signature="547:808" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/data/SentiLex-flex-PT01.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="11165" column="41" selection-start-line="11165" selection-start-column="41" selection-end-line="11165" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/data/all_candidate_mapping.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="126" selection-start-line="1" selection-start-column="126" selection-end-line="1" selection-end-column="126" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentimentanalysistwitter/scripts/sentiment_analysis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
           <folding>
             <element signature="e#15#46#0" expanded="true" />
-            <marker date="1543360589985" expanded="true" signature="371:376" ph="..." />
-            <marker date="1543360589985" expanded="true" signature="371:511" ph="..." />
+            <marker date="1543867763203" expanded="true" signature="479:484" ph="..." />
+            <marker date="1543867763203" expanded="true" signature="479:619" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentimentanalysistwitter/classes/DataHolder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="38" selection-start-column="38" selection-end-column="38" />
+          <folding>
+            <marker date="1543867763284" expanded="true" signature="91:92" ph="..." />
+            <marker date="1543867763284" expanded="true" signature="91:97" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentimentanalysistwitter/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentimentanalysistwitter/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentimentanalysistwitter/scripts/file_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="33" column="51" selection-start-line="33" selection-start-column="51" selection-end-line="33" selection-end-column="51" />
+          <folding>
+            <marker date="1543867763249" expanded="true" signature="1050:1051" ph="..." />
           </folding>
         </state>
       </provider>

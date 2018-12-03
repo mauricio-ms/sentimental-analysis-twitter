@@ -1,5 +1,5 @@
+import numpy as np
 from collections import Counter
-
 
 def adder(x, y):
     return x + y
@@ -23,8 +23,14 @@ def counter():
 
 
 def map_value_to_most_common(x):
-    return get_key(x), Counter(get_value(x)).most_common()[0][0]
+    return get_key(x), most_common(get_value(x))
+
+
+def most_common(x):
+    if len(x) > 0:
+        return Counter(x).most_common(1)[0][0]
+    return 0
 
 
 def multiply_word(x):
-    return u"{} ".format(x[0]) * x[1]
+    return u"{} ".format(x[0]) * np.abs(x[1])

@@ -1,11 +1,11 @@
 # coding=utf-8
-from chart_utils import *
+from sentimentanalysistwitter.scripts.chart_utils import *
 
 
 class PlotGenerator:
 
     def __init__(self, folder, data_holder):
-        self.folder = "../resources/plots/{}".format(folder)
+        self.folder = "../../resources/plots/{}".format(folder)
         self.data_holder = data_holder
 
     def plot(self):
@@ -40,12 +40,19 @@ class PlotGenerator:
         plot(better_most_frequently_values, u"Melhor valor mais frequente por Candidato") \
             .savefig(self.build_uri_to_save("melhor-valor-mais-frequente-por-candidato"))
 
-        worse_words_as_text = "".join(map(multiply_word, self.data_holder.worse_words_tuples))
-        better_words_as_text = "".join(map(multiply_word, self.data_holder.better_words_tuples))
-        word_clue(worse_words_as_text, "Piores Palavras") \
-            .savefig(self.build_uri_to_save("word-clue-piores-palavras"))
-        word_clue(better_words_as_text, "Melhores Palavras") \
-            .savefig(self.build_uri_to_save("word-clue-melhores-palavras"))
+        for candidate_worse_words_tuples in self.data_holder.worse_words_tuples:
+            candidate = candidate_worse_words_tuples[0]
+            worse_words_tuples = candidate_worse_words_tuples[1]
+            worse_words_as_text = "".join(map(multiply_word, worse_words_tuples))
+            word_clue(worse_words_as_text, "Piores Palavras - {}".format(candidate)) \
+                .savefig(self.build_uri_to_save("word-clue-piores-palavras-{}".format(candidate)))
+
+        for candidate_better_words_tuples in self.data_holder.better_words_tuples:
+            candidate = candidate_better_words_tuples[0]
+            better_words_tuples = candidate_better_words_tuples[1]
+            better_words_as_text = "".join(map(multiply_word, better_words_tuples))
+            word_clue(better_words_as_text, "Melhores Palavras - {}".format(candidate)) \
+                .savefig(self.build_uri_to_save("word-clue-melhores-palavras-{}".format(candidate)))
 
     def build_uri_to_save(self, file_name):
         return "{}/{}".format(self.folder, file_name)

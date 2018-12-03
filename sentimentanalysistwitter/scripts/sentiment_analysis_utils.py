@@ -1,12 +1,11 @@
 # coding=utf-8
-import pprint
 import re
 import math
-from array_utils import *
+import pprint
 from file_utils import *
 
 pattern_split = re.compile(r"[\s@&.,?$+]")
-word_mapping = read_word_mapping()
+word_mapping = read_sentilex_mapping()
 
 
 def sentiment(text):
@@ -25,9 +24,9 @@ def sentiment(text):
 
     score = float(sum(sentiments)) / math.sqrt(len(words))
 
-    # print "Sentiment for text: {}".format(score)
-    # print text
-    # pprint.pprint(sentiments)
+    print "Sentiment for text: {}".format(score)
+    print text
+    pprint.pprint(sentiments)
 
     return {
         "score": score,

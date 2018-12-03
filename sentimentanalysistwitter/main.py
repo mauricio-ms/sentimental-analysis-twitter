@@ -1,52 +1,38 @@
-#coding=utf-8
-from sentiment_analysis_utils import *
-
-print "main"
-
-# text = u"""
-# RT @MBLivre: O PT quer que Haddad seja o líder da campanha para que Lula seja solto.
-# Esperamos que seja ele mesmo: tomou um pau no primeir…
-# """
-# text = u"Graças a Deus que as eleições acabaram. Foda-se o bolsonaro, Mourão, Lula, Haddad, Ciro, PT, PSL e tudo mais."
-
-# text = u"Ferramenta de Deteccao e Remocao de Malware"
-
-# text = u"""
-# 2
-# RT @JeanMessiha: Cherchez l’intrus :
-# 1) TOUS les médias sont contre le #Brexit
-# 2) TOUS les médias sont contre #Trump
-# 3) TOUS les médias son…
-# """
-
-text = u"O smartphone é bom, porém não gosto de smartphone grandes"
-
-# text = u"Gostei bastante desse smartphone, mesmo sendo caro"
-
-sentiment(text)
-
-# def sentiment(text):
-#     words = pattern_split.split(text.lower())
-#     sentiments = []
-#     print "\nSentiment for text: "
-#     print text
-#     for word in words:
-#         # print word
-#         if word in word_mapping:
-#             sentiments.append(int(word_mapping[word]))
-#             # print word_mapping[word]
-#         else:
-#             sentiments.append(0)
-#             # print 0
-#     score = 0
-#     if sentiments:
-#         score = float(sum(sentiments))/math.sqrt(len(sentiments))
+import numpy as np
+import matplotlib.pyplot as plt
 #
-#     print "Score:"
-#     print score
+# # Fixing random state for reproducibility
+# np.random.seed(19680801)
 #
-#     return {
-#         "score": score,
-#         "sentiments": sentiments
-#     }
+#
+# N = 50
+# x = np.random.rand(N)
+# y = np.random.rand(N)
+# colors = np.random.rand(N)
+# area = (30 * np.random.rand(N))**2  # 0 to 15 point radii
+#
+# plt.scatter([2, 4, 6], [2, 4, 6], s=[8, 800, 80], c=["a", "b", "c"], alpha=0.5)
+# plt.show()
 
+import matplotlib.pyplot as plt
+from numpy.random import rand
+
+
+fig, ax = plt.subplots()
+words = ['fascista', 'fascista']
+words_positions = [1, 2]
+quantities = [4, 8]
+i = 0
+for candidate in [('Bolsonaro', 'green'), ('Haddad', 'red')]:
+    x = words_positions[i]
+    y = quantities[i]
+    ax.scatter(x, y,
+               c=candidate[1], label=candidate[0],
+               alpha=0.8, edgecolors='none')
+    ax.text(x, y, words[i], fontsize=9)
+    i = i + 1
+
+ax.legend()
+ax.grid(True)
+
+plt.show()
