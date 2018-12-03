@@ -1,7 +1,7 @@
 # coding=utf-8
 from pymongo import MongoClient
-from sentiment_analysis_utils import *
-from chart_utils import *
+from sentimentanalysistwitter.scripts.sentiment_analysis_utils import *
+from sentimentanalysistwitter.scripts.chart_utils import *
 from sentimentanalysistwitter.classes.DataHolder import DataHolder
 from sentimentanalysistwitter.classes.PlotGenerator import PlotGenerator
 import datetime
@@ -25,6 +25,7 @@ projection_tweets = {"id": 1, "full_text": 1, "entities": 1, "_id": 0}
 tweets = map(mapper_tweets, list(db.oldCandidateTweets.find({}, projection_tweets).limit(1000)))
 print "Tweets read finished at: " + str(datetime.datetime.now())
 
+# Complete wordclue
 # word_clue(" ".join(map(get_value, tweets)), "teste")\
 #     .savefig("../resources/plots")
 # print tweets
